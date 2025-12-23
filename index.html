@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Yadav | Defence Enthusiast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <canvas id="motion-canvas"></canvas>
+
+    <header>
+        <img src="logo.png" alt="SY-DEF Logo" class="logo-img">
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-text="HOME">HOME</a></li>
+                <li><a href="#about" class="nav-link" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="#portfolio" class="nav-link" data-text="MISSIONS">MISSIONS</a></li>
+                <li><a href="#contact" class="nav-link" data-text="COMM">COMM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="rank">ASPIRANT</h2>
+                <h1 class="glitch" data-text="SHUBHAM YADAV">SHUBHAM YADAV</h1>
+                <p class="subtitle">DEFENCE ENTHUSIAST | STRATEGIST | DEVELOPER</p>
+                <a href="#about" class="cta-button">INITIATE SEQUENCE</a>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL TO PROCEED</span>
+                <div class="arrow"></div>
+            </div>
+        </section>
+
+        <section id="about" class="hidden">
+            <div class="container">
+                <h2 class="section-title">01 // TARGET_PROFILE</h2>
+                <div class="content-grid">
+                    <div class="text-block">
+                        <p>Discipline. Strategy. Innovation. I am a dedicated defence enthusiast with a passion for
+                            technology and tactical solutions.</p>
+                        <p>My mission is to blend modern tech with the rigid discipline of defence protocols.</p>
+                        <ul class="stats">
+                            <li><span>STATUS</span> <span>ACTIVE</span></li>
+                            <li><span>FOCUS</span> <span>DEFENCE TECH</span></li>
+                            <li><span>LOCATION</span> <span>CLASSIFIED</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="hidden">
+            <div class="container">
+                <h2 class="section-title">02 // MISSION_LOG</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="card-overlay"></div>
+                        <h3>OP: WEB DEV</h3>
+                        <p>Full stack web development operations.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-overlay"></div>
+                        <h3>OP: STRATEGY</h3>
+                        <p>Tactical analysis and planning.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-overlay"></div>
+                        <h3>OP: RESEARCH</h3>
+                        <p>Advanced defence technology research.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <div class="container">
+                <h2 class="section-title">03 // ESTABLISH_COMMS</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">CODENAME</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">FREQ (EMAIL)</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder=" "></textarea>
+                        <label for="message">TRANSMISSION</label>
+                    </div>
+                    <button type="submit" class="cta-button">SEND TRANSMISSION</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 SHUBHAM YADAV. ALL RIGHTS RESERVED.</p>
+            <p>SYSTEM STATUS: ONLINE</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
