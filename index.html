@@ -1,121 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubham Yadav | Defence Enthusiast</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Share+Tech+Mono&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11140f">
+  <meta name="description" content="Shubham Yadav — security operations, team leadership, training and technology.">
+  <title>Shubham Yadav — Security & Leadership</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.png">
 </head>
-
 <body>
-    <div id="cursor"></div>
-    <div id="cursor-blur"></div>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Shubham Yadav home"><span class="brand-mark">SY<span>.</span></span><span class="brand-name">SHUBHAM YADAV</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#capabilities">Capabilities</a><a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
 
-    <canvas id="motion-canvas"></canvas>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="status-dot"></span> SECURITY • LEADERSHIP • TECHNOLOGY</p>
+        <h1 class="hero-title reveal">Calm minds.<br><em>Clear action.</em><br>Stronger teams.</h1>
+        <p class="hero-lead reveal">I'm Shubham Yadav — focused on people, operational discipline and practical solutions that make teams work better.</p>
+        <div class="hero-actions reveal"><a class="button button-primary" href="#about">Explore my profile <span>↓</span></a><a class="text-link" href="https://github.com/shubhXdev" target="_blank" rel="noreferrer">View GitHub <span>↗</span></a></div>
+      </div>
+      <div class="hero-aside reveal">
+        <div class="orbit"><div class="orbit-core">SY</div><span class="orbit-label orbit-label-one">DISCIPLINE</span><span class="orbit-label orbit-label-two">TEAMWORK</span><span class="orbit-label orbit-label-three">GROWTH</span></div>
+        <p class="aside-note">A practical approach to<br>security and leadership.</p>
+      </div>
+      <div class="hero-bottom"><span>BASED IN INDIA</span><span>SCROLL TO DISCOVER <b>↓</b></span><span>01 — 05</span></div>
+    </section>
 
-    <header>
-        <img src="logo.png" alt="SY-DEF Logo" class="logo-img">
-        <nav>
-            <ul>
-                <li><a href="#home" class="nav-link" data-text="HOME">HOME</a></li>
-                <li><a href="#about" class="nav-link" data-text="ABOUT">ABOUT</a></li>
-                <li><a href="#portfolio" class="nav-link" data-text="MISSIONS">MISSIONS</a></li>
-                <li><a href="#contact" class="nav-link" data-text="COMM">COMM</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="intro section" id="about">
+      <div class="section-kicker reveal"><span>01 / ABOUT</span><span class="line"></span><span>THE PERSON BEHIND THE WORK</span></div>
+      <div class="intro-layout">
+        <h2 class="section-heading reveal">Prepared to<br>learn. Ready to<br><em>contribute.</em></h2>
+        <div class="intro-text reveal"><p class="large-copy">I value discipline, responsibility and steady improvement. My interests sit at the intersection of physical security, team coordination and technology.</p><p>My experience in training and monitoring has helped me understand how clear instructions, consistent follow-through and people-first communication support reliable operations. I continue to build my knowledge through structured learning and practical projects.</p><div class="quick-facts"><div><strong>2021</strong><span>NCC C Certificate</span></div><div><strong>2+ yrs</strong><span>Training & monitoring</span></div><div><strong>India</strong><span>Open to opportunities</span></div></div></div>
+      </div>
+    </section>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h2 class="rank">ASPIRANT</h2>
-                <h1 class="glitch" data-text="SHUBHAM YADAV">SHUBHAM YADAV</h1>
-                <p class="subtitle">DEFENCE ENTHUSIAST | STRATEGIST | DEVELOPER</p>
-                <a href="#about" class="cta-button">INITIATE SEQUENCE</a>
-            </div>
-            <div class="scroll-indicator">
-                <span>SCROLL TO PROCEED</span>
-                <div class="arrow"></div>
-            </div>
-        </section>
+    <section class="experience section" id="experience">
+      <div class="section-kicker reveal"><span>02 / EXPERIENCE</span><span class="line"></span><span>LEARNING THROUGH RESPONSIBILITY</span></div>
+      <h2 class="section-heading reveal">Where I've<br><em>added value.</em></h2>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">2 YEARS 5 MONTHS</div><div class="timeline-main"><p class="role-label">FOOD & OPERATIONS</p><h3>Manager — Training & Monitoring</h3><p class="company">Storksflix Doods LLP</p><p class="description">Supported team training and monitoring in a fast-paced food-chain environment, with a focus on process consistency, coordination and day-to-day execution.</p><div class="tags"><span>Team Coordination</span><span>Training</span><span>Monitoring</span><span>Operations</span></div></div><span class="timeline-index">01</span></article>
+        <article class="timeline-item reveal"><div class="timeline-date">3 MONTHS · 2023</div><div class="timeline-main"><p class="role-label">DIGITAL & TECHNOLOGY</p><h3>SEO Executive Intern</h3><p class="company">Nadcab Technology</p><p class="description">Gained exposure to digital workflows, research, content optimisation and structured online processes.</p><div class="tags"><span>SEO</span><span>Research</span><span>Digital Tools</span></div></div><span class="timeline-index">02</span></article>
+      </div>
+    </section>
 
-        <section id="about" class="hidden">
-            <div class="container">
-                <h2 class="section-title">01 // TARGET_PROFILE</h2>
-                <div class="content-grid">
-                    <div class="text-block">
-                        <p>Discipline. Strategy. Innovation. I am a dedicated defence enthusiast with a passion for
-                            technology and tactical solutions.</p>
-                        <p>My mission is to blend modern tech with the rigid discipline of defence protocols.</p>
-                        <ul class="stats">
-                            <li><span>STATUS</span> <span>ACTIVE</span></li>
-                            <li><span>FOCUS</span> <span>DEFENCE TECH</span></li>
-                            <li><span>LOCATION</span> <span>CLASSIFIED</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="capabilities section" id="capabilities">
+      <div class="section-kicker reveal"><span>03 / CAPABILITIES</span><span class="line"></span><span>AREAS I'M BUILDING ON</span></div>
+      <h2 class="section-heading reveal">The way I<br><em>work & think.</em></h2>
+      <div class="capability-grid">
+        <article class="cap-card reveal"><span class="cap-number">01</span><div class="cap-icon">◎</div><h3>Security mindset</h3><p>Situational awareness, vigilance, responsibility and respect for standard operating procedures.</p><span class="cap-foot">PHYSICAL SECURITY</span></article>
+        <article class="cap-card reveal"><span class="cap-number">02</span><div class="cap-icon">↗</div><h3>Team leadership</h3><p>Training, coordination, clear communication and helping people stay aligned with a shared task.</p><span class="cap-foot">PEOPLE & OPERATIONS</span></article>
+        <article class="cap-card reveal"><span class="cap-number">03</span><div class="cap-icon">⌘</div><h3>Digital problem-solving</h3><p>Using web tools, research and simple digital projects to organise information and improve workflows.</p><span class="cap-foot">TECHNOLOGY</span></article>
+      </div>
+    </section>
 
-        <section id="portfolio" class="hidden">
-            <div class="container">
-                <h2 class="section-title">02 // MISSION_LOG</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="card-overlay"></div>
-                        <h3>OP: WEB DEV</h3>
-                        <p>Full stack web development operations.</p>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-overlay"></div>
-                        <h3>OP: STRATEGY</h3>
-                        <p>Tactical analysis and planning.</p>
-                    </div>
-                    <div class="project-card">
-                        <div class="card-overlay"></div>
-                        <h3>OP: RESEARCH</h3>
-                        <p>Advanced defence technology research.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="journey section" id="journey">
+      <div class="section-kicker reveal"><span>04 / DEVELOPMENT</span><span class="line"></span><span>EDUCATION & CONTINUOUS LEARNING</span></div>
+      <h2 class="section-heading reveal">Built on a<br><em>learning mindset.</em></h2>
+      <div class="journey-list">
+        <div class="journey-row reveal"><span class="journey-year">2021</span><div><h3>NCC — C Certificate</h3><p>National Cadet Corps</p></div><span class="journey-arrow">↗</span></div>
+        <div class="journey-row reveal"><span class="journey-year">ACADEMIC</span><div><h3>Graduation completed</h3><p>Academic foundation</p></div><span class="journey-arrow">↗</span></div>
+        <div class="journey-row reveal"><span class="journey-year">PROFESSIONAL</span><div><h3>Leadership & security learning</h3><p>GTO 41st Batch — leadership, team management, conflict management and disaster-management fundamentals</p></div><span class="journey-arrow">↗</span></div>
+      </div>
+    </section>
 
-        <section id="contact" class="hidden">
-            <div class="container">
-                <h2 class="section-title">03 // ESTABLISH_COMMS</h2>
-                <form id="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" required placeholder=" ">
-                        <label for="name">CODENAME</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" required placeholder=" ">
-                        <label for="email">FREQ (EMAIL)</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" required placeholder=" "></textarea>
-                        <label for="message">TRANSMISSION</label>
-                    </div>
-                    <button type="submit" class="cta-button">SEND TRANSMISSION</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 SHUBHAM YADAV. ALL RIGHTS RESERVED.</p>
-            <p>SYSTEM STATUS: ONLINE</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-kicker reveal"><span>05 / CONTACT</span><span class="line"></span><span>START A CONVERSATION</span></div>
+      <div class="contact-content reveal"><p class="eyebrow">OPEN TO LEARNING & OPPORTUNITIES</p><h2>Let's make<br><em>good work happen.</em></h2><p class="contact-lead">For professional conversations, collaborations or opportunities, feel free to reach out through GitHub.</p><a class="button button-primary" href="https://github.com/shubhXdev" target="_blank" rel="noreferrer">Connect on GitHub <span>↗</span></a></div>
+      <footer><a class="brand" href="#home"><span class="brand-mark">SY<span>.</span></span><span class="brand-name">SHUBHAM YADAV</span></a><span>DISCIPLINE IN ACTION. PROGRESS IN MOTION.</span><a href="#home">BACK TO TOP ↑</a><span>© <span id="year"></span> SHUBHAM YADAV</span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
-
 </html>
